@@ -1,0 +1,131 @@
+
+/* général */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+
+h1,h2{
+    font-size: 40px;
+}
+
+button{
+    border: red;
+    background: red;
+    color: white;
+    padding: 20px;
+    border-radius: 10%;
+    font-weight: bold;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Header */
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(images/background.jpg) no-repeat center / cover;
+    color: white;
+}
+
+/* haut */
+
+.haut{
+    background: black;
+    padding: 20px;
+}
+
+.haut p, .haut a{
+    padding: 10px;
+}
+
+.haut p{
+    font-weight: bold;
+}
+
+/* nav*/
+
+nav{
+    width: 50%;
+}
+
+.Try
+{
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+/* texte */
+
+.text{
+    flex-direction: column;
+    margin: 10%;
+    width: 40%;
+    height: 50vh;
+}
+
+.petit{
+    width: 20%;
+}
+
+/* recherche */
+
+.recherche{
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    background: #f8f2f2;
+}
+
+.blocR{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 10%;
+}
+
+.barre{
+    border-radius: 10%;
+}
+
+/* boites texte */
+
+.boitesT{
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.boitesT div{
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+    width: 20%;
+    border-top: 6px solid red;
+}
+
+/* footer */
+
+footer{
+    padding-top: 20px;
+    height: 10vh;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,8 @@
+const phrase = "yes"
+const lettre = "y"
+
+if ( phrase.includes(lettre) ) {
+  console.log ( "oui")
+} else {
+  console.log("non")
+}
